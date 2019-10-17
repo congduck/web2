@@ -1,0 +1,50 @@
+a {
+  color:black;
+  text-decoration: none;
+}
+body {
+  margin: 0;
+}
+  h1 {
+    font-size: 45px;
+    border-bottom: 2px solid black;
+    text-align: center;
+    margin:0;
+  }
+  ol {
+    border-right: 1px solid gray;
+    width:100px;
+    margin:0;
+    padding:20px;
+  }
+  .grid {
+    border-right: 1px solid black;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    margin: 10px;
+  }
+  h2 {
+    margin:0;
+  }
+@media(max-width:800px){
+  .grid {
+    display: block;
+    border-right:none;
+  }
+  ol {
+    border-right:none;
+    width:100px;
+    margin:0;
+    padding:20px;
+  }
+  h1 {
+    font-size: 30px;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    margin:0;
+  }
+  h2 {
+    font-size:20px;
+    margin:0;
+  }
+}
